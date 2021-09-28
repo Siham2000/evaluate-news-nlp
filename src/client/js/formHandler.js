@@ -1,14 +1,14 @@
 import { checkForName } from "./nameChecker";
 import { urlChecker } from "./urlChecker";
 
-//Globale variable
+//Global variable
 const server = "http://localhost:8081/";
 const agreementElement = document.getElementById("agreement");
 const subjectivityElement = document.getElementById("subjectivity");
 const ironyElement = document.getElementById("irony");
+
 function handleSubmit(event) {
   event.preventDefault();
-
   // check what text was put into the form field
   let formText = document.getElementById("name").value;
   checkForName(formText);
@@ -43,4 +43,4 @@ async function postData(url = "", data = {}) {
   }
 }
 
-export { handleSubmit };
+export { handleSubmit, postData };
