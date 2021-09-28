@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Test</title>
+    </head>
+
+    <body>
+
+        <header>
+            <div class="title">
+                analyzer
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <form class="" onsubmit="return Client.handleSubmit(event)">
+                    <input id="name" type="text" name="input" value="" onblur="onBlur()" placeholder="Name">
+                    <input class="btn" type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)" onsubmit="return Client.handleSubmit(event)">
+
+                </form>
+            </section>
+
+            <section class="form-result">
+               <h2><strong >Form Results:</strong></h2>
+                <div class="results" id="results">
+                    <div id="agreement"><span class="result" >agreement : </span></div>
+                    <div  id="subjectivity"><span class="result" >subjectivity : </span></div>
+                    <div id="irony"><span class="result" >irony : </span></div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <nav >
+             <div class="copyright">© 2021</div>
+            </nav>    
+        </footer>
+    </body>
+</html>

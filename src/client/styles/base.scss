@@ -1,0 +1,49 @@
+$mainColor: #35322d;
+$secondClolor: #fff;
+$fontColor: #e69927;
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 18px;
+  background-color: rgb(241, 236, 236);
+}
+
+main {
+  flex: 2;
+  justify-content: center;
+  text-align: center;
+  margin: 2rem;
+  font: 150 1rem "Roboto", sans-serif;
+  background: $mainColor;
+  border-radius: 2px;
+}
+
+section {
+  max-width: 800px;
+  margin: 1rem auto;
+}
+
+.form-result {
+  border-top: 2px solid $secondClolor;
+  padding: 15px;
+
+  h2 {
+    font-size: 22px;
+    color: $fontColor;
+    padding: 10px;
+    margin: 6px;
+  }
+  .results {
+    color: $secondClolor;
+    font-size: 18px;
+    margin: 6px;
+  }
+  .result {
+    text-transform: capitalize;
+    font-size: 16px;
+    margin: 10px;
+    color: $fontColor;
+  }
+}

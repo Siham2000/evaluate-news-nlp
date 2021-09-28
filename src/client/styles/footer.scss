@@ -1,0 +1,14 @@
+$fontColor: #e69927;
+
+footer {
+  border-top: 2px solid $fontColor;
+  padding: 0.5rem 0 0;
+  opacity: 0.7;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 0.95em;
+  padding: 0 0.5rem 0.5rem;
+  color: $fontColor;
+}

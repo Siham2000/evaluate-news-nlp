@@ -1,0 +1,25 @@
+form {
+  padding: 40px;
+  outline: none;
+
+  input {
+    line-height: 16px;
+    margin: 10px 0;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 20px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .btn {
+    background-color: #e69927;
+    font-size: 20px;
+    padding: 12px;
+    color: white;
+    text-transform: capitalize;
+  }
+}
